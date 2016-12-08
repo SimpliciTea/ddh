@@ -1,0 +1,19 @@
+doctype
+html
+  head
+    title= title || 'No Title Passed'
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel='stylesheet', href='css/main.css')
+  body
+    div#main-container
+      include header
+      
+      block content
+
+      include footer
+
+    // nav lives outside main container wrap 
+    include nav
+    div#menu-mask
+
+    script(src="js/main.js", type="text/javascript")

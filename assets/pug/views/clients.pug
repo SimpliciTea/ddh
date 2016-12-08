@@ -1,0 +1,9 @@
+extends ../layout/main
+include ../components/accordion
+
+block content
+  div.content
+    h1 Clients &amp; Projects
+    
+    +accordion(locals.clients)
+      

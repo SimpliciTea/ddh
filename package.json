@@ -1,0 +1,21 @@
+{
+  "name": "jade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "node-sass": "^3.13.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./bin/watch-all"
+  },
+  "author": "",
+  "license": "ISC"
+}

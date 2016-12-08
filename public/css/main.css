@@ -1,0 +1,189 @@
+* {
+  font-family: Arial, sans-serif; }
+
+h1 {
+  font-size: 24px;
+  font-family: "Arial Narrow", Arial, sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+  a:hover {
+    color: #ccc; }
+  a.box-link {
+    display: flex;
+    flex-align: center;
+    height: 80px;
+    width: 96%;
+    margin: 2%;
+    border: 1px solid white;
+    align-items: center; }
+    a.box-link .box-link-text {
+      margin: auto; }
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
+  ul.list-skills {
+    text-align: center; }
+    ul.list-skills li {
+      line-height: 40px;
+      border: 1px solid white;
+      margin: 5px 0px;
+      border-radius: 3px; }
+  ul.list-experience {
+    margin-top: 30px; }
+    ul.list-experience li {
+      border-top: 1px solid white;
+      padding: 15px 0px; }
+    ul.list-experience p {
+      margin: 0px 0px 7px 0px; }
+    ul.list-experience a {
+      color: blue;
+      text-decoration: underline;
+      font-size: 14px; }
+      ul.list-experience a:hover {
+        color: white; }
+
+.ac-container {
+  width: 100%;
+  margin: 10px auto 30px auto; }
+  .ac-container label {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 20px;
+    position: relative;
+    z-index: 20;
+    display: block;
+    height: 30px;
+    cursor: pointer;
+    color: #777;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+    line-height: 33px;
+    font-size: 19px;
+    background: -webkit-linear-gradient(top, #ffffff, #eaeaea);
+    box-shadow: 0px 0px 0px 1px rgba(155, 155, 155, 0.3), 1px 0px 0px 0px rgba(255, 255, 255, 0.9) inset, 0px 2px 2px rgba(0, 0, 0, 0.1); }
+    .ac-container label:hover {
+      background: #fff; }
+  .ac-container input:checked + label,
+  .ac-container input:checked + label:hover {
+    background: #c6e1ec;
+    color: #3d7489;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 0px 1px rgba(155, 155, 155, 0.3), 0px 2px 2px rgba(0, 0, 0, 0.1); }
+  .ac-container input {
+    display: none; }
+  .ac-container article {
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: -1px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    max-height: 0px;
+    position: relative;
+    z-index: 10;
+    transition: max-height 0.3s ease-in-out, box-shadow 0.6s linear; }
+    .ac-container article p {
+      font-style: italic;
+      color: #777;
+      line-height: 23px;
+      font-size: 14px;
+      padding: 20px;
+      text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8); }
+  .ac-container input:checked ~ article.ac-small {
+    max-height: 400px; }
+  .ac-container input:checked ~ article.ac-medium {
+    max-height: 400px; }
+  .ac-container input:checked ~ article.ac-large {
+    max-height: 400px; }
+  .ac-container input:checked ~ article {
+    transition: max-height 0.5s ease-in-out, box-shadow 0.1s linear; }
+
+header {
+  width: 100%;
+  position: relative; }
+  header .logo {
+    width: 100%; }
+
+div.content {
+  width: 90%;
+  margin: auto; }
+
+body {
+  background-color: #bada55;
+  margin: 0px;
+  padding: 0px; }
+
+.img-wrap {
+  width: 100%;
+  position: relative;
+  display: table; }
+  .img-wrap img {
+    width: 100%; }
+  .img-wrap .hover-text {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center; }
+
+div.nav-mobile {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  z-index: 200;
+  background-color: transparent;
+  transition: top 0.2s; }
+  div.nav-mobile button.menu-toggle {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 300; }
+  div.nav-mobile .menu-mobile {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    z-index: 150;
+    transition: transform 0.3s;
+    transform: translateX(-100%); }
+    div.nav-mobile .menu-mobile.active {
+      transform: translateX(0); }
+    @media all and (min-width: 320px) {
+      div.nav-mobile .menu-mobile {
+        width: 300px; } }
+    div.nav-mobile .menu-mobile .menu-items {
+      list-style: none;
+      position: relative;
+      top: 40px;
+      margin: 0px;
+      padding: 20px 0px;
+      text-align: center;
+      width: 100%; }
+    div.nav-mobile .menu-mobile .menu-item {
+      margin: 0px auto 20px;
+      background-color: #ddd;
+      border-radius: 3px;
+      width: 90%; }
+      div.nav-mobile .menu-mobile .menu-item .menu-link {
+        display: block;
+        padding: 12px 24px;
+        width: 100%;
+        height: 100%;
+        color: #444;
+        text-decoration: none;
+        font-family: 'Arial Narrow', Arial, sans-serif; }
+
+body.has-active-menu {
+  overflow: hidden; }
+
+*, html {
+  box-sizing: border-box; }

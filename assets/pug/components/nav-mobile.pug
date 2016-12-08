@@ -1,0 +1,7 @@
+div.nav-mobile.active
+  button.menu-toggle Menu
+  nav.menu-mobile
+    ul.menu-items
+      each item in locals.menuItems
+        li.menu-item
+          a.menu-link(href=item.url)= item.text

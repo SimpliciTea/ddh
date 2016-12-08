@@ -1,0 +1,23 @@
+mixin accordion(params)
+  - //Expected data format:
+  - //  
+  - //headerImageUrl: '',    (if empty, defaults to title)
+  - //title: '',
+  - //description: ''
+  - //bullets: [],           (either desc. or list req.)
+
+  section.ac-container
+    each client, index in params
+      div
+        input(id='ac-'+index, name='accordion-'+index, type='checkbox')
+        label(for='ac-'+index) #{client.title}
+        article.ac-small
+          p= client.title
+
+          if client.description
+            p #{client.description}
+          
+          if client.bullets
+            ul
+              each bullet in client.bullets
+                li= bullet
