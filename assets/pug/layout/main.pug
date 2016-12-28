@@ -5,12 +5,15 @@ html
     meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel='stylesheet', href='css/main.css')
   body
+    - var baseUrl = locals.baseUrl ? locals.baseUrl : ""
     div#main-container
       include header
       
       block content
 
       include footer
+
+    - console.log(locals)
 
     // nav lives outside main container wrap 
     include nav

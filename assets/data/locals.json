@@ -1,6 +1,7 @@
 // data as Locals in JSON for Jade template rendering
 
 {
+  "baseUrl": "",
   "menuItems": [
     {
       "text": "Home",

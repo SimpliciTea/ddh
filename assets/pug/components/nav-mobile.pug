@@ -5,4 +5,4 @@ div.nav-mobile
     ul.menu-items
       each item in locals.menuItems
         li.menu-item
-          a.menu-link(href=item.url)= item.text
+          a.menu-link(href=`${baseUrl + item.url}`)= item.text

@@ -2,10 +2,10 @@ extends ../layout/main
 
 block content
   div.img-wrap
-    img(src="/images/Canada_Gay_flag.png")
+    img(src=`${baseUrl}/images/Canada_Gay_flag.png`)
     span.hover-text "Sorry"
 
-  a.box-link(href="/clients.html") 
+  a.box-link(href=`${baseUrl}/clients.html`) 
     span.box-link-text See clients and projects?
-  a.box-link(href="/skills.html")
+  a.box-link(href=`${baseUrl}/skills.html`)
     span.box-link-text See education and skills
