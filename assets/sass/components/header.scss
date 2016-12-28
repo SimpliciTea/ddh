@@ -1,8 +1,14 @@
 header {
   width: 100%;
+  padding: 80px 15% 30px;
   position: relative;
+  text-align: center;
+
+  background-color: $ddh-green;
   
   .logo {
     width: 100%;
+    max-width: 500px;
+    margin: auto;
   }
 }

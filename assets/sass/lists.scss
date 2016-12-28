@@ -5,20 +5,29 @@ ul {
 
   &.list-skills {
     text-align: center;
+    width: 85%;
+    margin: auto;
 
     li {
-      line-height: 40px;
+      line-height: 50px;
       border: 1px solid white;
-      margin: 5px 0px;
+      margin: 20px 0px;
       border-radius: 3px;
+
+      &:first-child {
+        margin-top: 10px;
+      }
     }
   }
 
   &.list-experience {
+    margin: auto;
     margin-top: 30px;
+    width: 85%;
+
 
     li {
-      border-top: 1px solid white;
+      border-top: 1px solid #666;
       padding: 15px 0px;
     }
 
@@ -27,7 +36,7 @@ ul {
     }
 
     a {
-      color: blue;
+      color: #557EFF;
       text-decoration: underline;
       font-size: 14px;
 

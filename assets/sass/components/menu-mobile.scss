@@ -1,5 +1,14 @@
+$burger-height: 50px;
+$burger-width: 50px;
+$bar-thickness: 5px;
+$burger-padding: 8px;
+$burger-bar-space: -12px;
+$burger-transition-duration: 0.1s;
+$burger-color: #000;
+
+
 div.nav-mobile {
-  position: fixed;
+  position: relative;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -14,9 +23,55 @@ div.nav-mobile {
 
   button.menu-toggle {
     position: fixed;
-    top: 10px;
-    left: 10px;
+    display: block;
+    overflow: hidden;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    width: $burger-width;
+    height: $burger-height;
+    font-size: 0;
+    text-indent: -9999px;
+    -webkit-appearance: none;
+    box-shadow: none;
+    border-radius: 0px;
+    border: none;
+    cursor: pointer;
+    top: 1%;
+    left: 2%;
     z-index: 300;
+
+    &:focus {
+      outline: none;
+    }
+
+    .menu-burger {
+      display: block;
+      position: absolute;
+      top: calc(calc(#{$burger-height} / 2) - calc(#{$bar-thickness} / 2);
+      left: $burger-padding;
+      right: $burger-padding;
+      height: $bar-thickness;
+      background: $burger-color;
+
+      &::before, &::after {
+        position: absolute;
+        display: block;
+        left: 0;
+        width: 100%;
+        height: $bar-thickness;
+        background-color: $burger-color;
+        content: "";
+      }
+
+      &::before {
+        top: $burger-bar-space;
+      }
+
+      &::after {
+        bottom: $burger-bar-space;
+      }
+    }
   }
 
   .menu-mobile {
@@ -25,7 +80,7 @@ div.nav-mobile {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #fff;
+    background-color: black;
     z-index: 150;
     transition: transform 0.3s;
     transform: translateX(-100%);
@@ -50,7 +105,7 @@ div.nav-mobile {
 
     .menu-item {
       margin: 0px auto 20px;
-      background-color: #ddd;
+      background-color: $ddh-green;
       border-radius: 3px;
       width: 90%;
     
@@ -59,7 +114,7 @@ div.nav-mobile {
         padding: 12px 24px;
         width: 100%;
         height: 100%;
-        color: #444;
+        text-align: left;
         text-decoration: none;
         font-family: 'Arial Narrow', Arial, sans-serif;
 
@@ -68,6 +123,51 @@ div.nav-mobile {
   }
 }
 
+
+
 body.has-active-menu {
   overflow: hidden;
+}
+
+
+// Burger Animations
+div.nav-mobile .menu-toggle {
+  
+  .menu-burger {
+    transition: background 0s $burger-transition-duration;
+  
+    &::before, &::after {
+      transition-duration: $burger-transition-duration, $burger-transition-duration, $burger-transition-duration;
+      transition-delay: $burger-transition-duration, 0s, $burger-transition-duration;
+    }
+
+    &::before {
+      transition-property: top, transform, background;
+    }
+
+    &::after {
+      transition-property: bottom, transform, background;
+    }
+  }
+
+  &.active {
+    .menu-burger {
+      background: none;
+    
+      &::before {
+        top: 0;
+        transform: rotate(45deg);
+      }
+
+      &::after {
+        bottom: 0;
+        transform: rotate(-45deg);
+      }
+
+      &::before, &::after {
+        transition-delay: 0s, $burger-transition-duration, 0s;
+        background: white;
+      }
+    }
+  }
 }

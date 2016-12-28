@@ -1,6 +1,15 @@
 div.content {
-  width: 90%;
+  width: 100%;
   margin: auto;
+
+  &.content-contact {
+    width: 85%;
+
+    h1 {
+      width: 100%;
+      margin-bottom: 12px;
+    }
+  }
 }
 
 body {

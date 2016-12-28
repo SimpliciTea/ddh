@@ -43,6 +43,7 @@ require('./menu.js');
     this.menu.classList.toggle('active');
     this.mask.classList.toggle('active');
     this.body.classList.toggle('has-active-menu');
+    this.toggleBtn.classList.toggle('active');
   }
 
   window.Menu = Menu;
