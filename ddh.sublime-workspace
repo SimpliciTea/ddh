@@ -1,0 +1,938 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"burger",
+				"burger-width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/pug/components/nav-mobile.pug",
+			"settings":
+			{
+				"buffer_size": 226,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/pug/layout/header.pug",
+			"settings":
+			{
+				"buffer_size": 97,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/pug/views/index.pug",
+			"settings":
+			{
+				"buffer_size": 322,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/components/menu-mobile.scss",
+			"settings":
+			{
+				"buffer_size": 3252,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/pug/views/clients.pug",
+			"settings":
+			{
+				"buffer_size": 173,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/pug/layout/main.pug",
+			"settings":
+			{
+				"buffer_size": 498,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/pug/layout/nav.pug",
+			"settings":
+			{
+				"buffer_size": 67,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/data/locals.json",
+			"settings":
+			{
+				"buffer_size": 2275,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 257,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/components/header.scss",
+			"settings":
+			{
+				"buffer_size": 203,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/lists.scss",
+			"settings":
+			{
+				"buffer_size": 664,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/components/accordion.scss",
+			"settings":
+			{
+				"buffer_size": 924,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/typography.scss",
+			"settings":
+			{
+				"buffer_size": 553,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/colors.scss",
+			"settings":
+			{
+				"buffer_size": 21,
+				"line_ending": "Unix",
+				"name": "$ddh-green: #008400;"
+			}
+		},
+		{
+			"file": "assets/js/menu.js",
+			"settings":
+			{
+				"buffer_size": 1018,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 404.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/john/Sites/ddh",
+		"/home/john/Sites/ddh/assets",
+		"/home/john/Sites/ddh/assets/data",
+		"/home/john/Sites/ddh/assets/js",
+		"/home/john/Sites/ddh/assets/pug",
+		"/home/john/Sites/ddh/assets/pug/components",
+		"/home/john/Sites/ddh/assets/pug/layout",
+		"/home/john/Sites/ddh/assets/pug/views",
+		"/home/john/Sites/ddh/assets/sass",
+		"/home/john/Sites/ddh/assets/sass/components",
+		"/home/john/Sites/ddh/bin",
+		"/home/john/Sites/ddh/public"
+	],
+	"file_history":
+	[
+		"/home/john/Sites/ddh/assets/sass/components/layout.scss",
+		"/home/john/Sites/.gitignore",
+		"/home/john/Sites/ddh/assets/pug/components/Herloom Blog.sublime-workspace",
+		"/var/www/html/blog/wp-content/themes/blankslate/front-pageee.php",
+		"/var/www/html/blog/wp-config.php",
+		"/var/www/html/wp-config.php",
+		"/home/john/.klei/DoNotStarveTogether/MyDediServer/cluster.ini",
+		"/home/john/Sites/ddh/sketch.js",
+		"/var/www/html/blog/wp-content/themes/blankslate/front-page.php",
+		"/var/www/html/herloom.7z",
+		"/var/www/html/googleb854249088fc95bd.html",
+		"/var/www/html/google70d7d03558865d44.html",
+		"/var/www/html/emred.png",
+		"/var/www/html/emcameo.png",
+		"/var/www/html/contact-old.php",
+		"/var/www/html/contact.php",
+		"/var/www/html/cameohomer.png",
+		"/var/www/html/brownv.png",
+		"/var/www/html/blank.cur",
+		"/var/www/html/andale_mono-webfont.woff",
+		"/var/www/html/andale_mono-webfont.ttf",
+		"/var/www/html/andale_mono-webfont.svg",
+		"/var/www/html/andale_mono-webfont.eot",
+		"/var/www/html/ACAB08778CB0DCF87E1D5DE8B63D6798.txt",
+		"/var/www/html/about.php",
+		"/var/www/html/98F31CD914D48FB8B6CDCF55CD34C701.txt",
+		"/var/www/html/9B97EBFAE013CD160C4A2C2BA81A653E.txt",
+		"/var/www/html/blog/wp-content/themes/blankslate/style.css",
+		"/var/www/html/wing.png",
+		"/var/www/html/web-fonts.zip",
+		"/var/www/html/test.php",
+		"/var/www/html/styles.css",
+		"/var/www/html/sizechart.pdf",
+		"/var/www/html/shopzz.php",
+		"/var/www/html/oratorstd-webfont.woff",
+		"/var/www/html/oratorstd-webfont.ttf",
+		"/var/www/html/oratorstd-webfont.svg",
+		"/var/www/html/oratorstd-webfont.eot",
+		"/var/www/html/monaco-webfont.woff",
+		"/var/www/html/monaco-webfont.ttf",
+		"/var/www/html/monaco-webfont.svg",
+		"/var/www/html/monaco-webfont.eot",
+		"/var/www/html/mglass.js",
+		"/var/www/html/mglass.css",
+		"/var/www/html/look.php",
+		"/var/www/html/leftlight.png",
+		"/var/www/html/info_contact.php",
+		"/var/www/html/index.php",
+		"/etc/apache2/apache2.conf",
+		"/var/www/html/blog/wp-content/themes/blankslate/home.php",
+		"/var/www/html/blog/wp-content/themes/blankslate/sidebar.php",
+		"/var/www/html/blog/wp-content/themes/blankslate/footer.php",
+		"/var/www/html/blog/wp-content/themes/blankslate/header.php",
+		"/var/www/html/blog/wp-content/themes/blankslate/single.php",
+		"/var/www/html/blog/wp-content/themes/blankslate/archive.php",
+		"/var/www/html/blog/wp-content/themes/blankslate/page.php",
+		"/etc/apache2/sites-available/000-default.conf",
+		"/etc/apache2/apache.conf",
+		"/home/john/Sites/ddh/assets/pug/components/nav-mobile.pug",
+		"/home/john/Sites/ddh/assets/js/bundle-map.js",
+		"/home/john/Sites/menu-mobile/public/index.html",
+		"/home/john/Sites/menu-mobile/package.json",
+		"/home/john/Sites/menu-mobile/assets/pug/views/index.pug",
+		"/home/john/Sites/menu-mobile/index.js",
+		"/home/john/Sites/menu-mobile/.gitignore",
+		"/home/john/Sites/menu-mobile/assets/pug/layout/main.pug",
+		"/home/john/Sites/menu-mobile/assets/pug/layout/footer.pug",
+		"/home/john/Sites/menu-mobile/assets/pug/layout/header.pug",
+		"/home/john/Sites/menu-mobile/assets/pug/layout/nav.pug",
+		"/home/john/Sites/menu-mobile/assets/sass/main.scss",
+		"/home/john/Sites/menu-mobile/bin/watch-all",
+		"/home/john/Sites/menu-mobile/assets/js/bundle-map.js",
+		"/home/john/Sites/jade/assets/data/locals.json",
+		"/home/john/Sites/jade/assets/sass/main.scss",
+		"/home/john/Sites/jade/assets/sass/lists.scss",
+		"/home/john/Sites/jade/assets/pug/views/skills.pug",
+		"/home/john/Sites/jade/assets/locals/locals.json",
+		"/home/john/Sites/jade/assets/pug/components/nav-mobile.pug",
+		"/home/john/Sites/jade/bin/watch-all",
+		"/home/john/Sites/jade/assets/sass/components/menu-mobile.scss",
+		"/home/john/Sites/jade/assets/sass/typography.scss",
+		"/home/john/Sites/jade/assets/pug/views/clients.pug",
+		"/home/john/Sites/jade/assets/pug/views/index.pug",
+		"/home/john/Sites/jade/.gitignore",
+		"/home/john/Sites/jade/assets/pug/layout/header.pug",
+		"/home/john/Sites/jade/index.js",
+		"/home/john/Sites/jade/assets/pug/views/contact.pug",
+		"/home/john/Sites/jade/assets/sass/components/lists.scss",
+		"/home/john/Sites/jade/assets/sass/components/layout.scss",
+		"/home/john/Sites/jade/assets/pug/components/nav-desktop.pug",
+		"/home/john/Sites/jade/assets/sass/components/header.scss",
+		"/home/john/Sites/jade/assets/pug/layout/footer.pug",
+		"/home/john/Sites/jade/public/index.html",
+		"/home/john/Sites/jade/public/js/menu.js",
+		"/home/john/Sites/jade/assets/data/clients.json",
+		"/home/john/Sites/jade/assets/pug/layout/main.pug",
+		"/home/john/Sites/jade/package.json",
+		"/home/john/Sites/jade/assets/pug/components/accordion.pug",
+		"/home/john/.bashrc",
+		"/home/john/Sites/jade/assets/js/menu.js",
+		"/home/john/Sites/jade/assets/js/bundle-map.js",
+		"/home/john/Sites/jade/assets/views/index.pug",
+		"/home/john/Sites/jade/assets/views/clients.pug",
+		"/home/john/Sites/jade/assets/data/clients.js",
+		"/home/john/Sites/jade/assets/views/includes/components/accordion.pug",
+		"/home/john/Sites/jade/assets/views/includes/components/accordion-bak.pug",
+		"/home/john/Sites/jade/assets/views/includes/layout/layout.pug",
+		"/home/john/Sites/jade/assets/views/layout.pug",
+		"/home/john/Sites/jade/views/layout.pug",
+		"/home/john/Sites/jade/views/includes/layout/header.pug",
+		"/home/john/Sites/jade/bin/watch-sass",
+		"/home/john/Sites/jade/assets/sass/public/main.scss",
+		"/home/john/Sites/jade/public/style.css",
+		"/home/john/Sites/jade/bin/build-sass",
+		"/home/john/Sites/jade/views/index.pug",
+		"/home/john/Sites/jade/assets/sass/public/components/accordion.scss",
+		"/home/john/Sites/jade/public/menu.js",
+		"/home/john/Sites/jade/assets/sass/public/mixins.scss",
+		"/home/john/Sites/jade/assets/sass/public/components/mixins.scss",
+		"/home/john/Sites/jade/views/includes/components/nav-desktop.pug",
+		"/home/john/Sites/jade/assets/sass/public/style.scss",
+		"/home/john/Sites/jade/views/includes/layout/nav.pug",
+		"/home/john/Sites/jade/views/includes/components/menu-desktop.pug",
+		"/home/john/Sites/jade/views/includes/menu-mobile.pug",
+		"/home/john/Sites/jade/views/includes/menu.pug",
+		"/home/john/Sites/jade/views/includes/nav.pug",
+		"/home/john/Sites/jade/data/clients.js",
+		"/home/john/Sites/jade/views/header.pug"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"2",
+			"article",
+			"nav-above",
+			"below",
+			"content",
+			"visited",
+			"main",
+			"font-size",
+			"body",
+			"text-transform",
+			"blog-title",
+			"#right",
+			"content",
+			"article",
+			"site",
+			"home",
+			"herloom",
+			"hfeed",
+			"#all",
+			"all",
+			"([a-zA-Z]+(?=:))",
+			"([a-zA-Z]+(?:))",
+			"([a=zA-Z]+(?:))",
+			"([a=zA-Z]+:)",
+			"([.\\S^\\\"]+:)",
+			"([.\\S]+:)",
+			"([./S]+:)",
+			"(.+:)",
+			"header",
+			"[.]+:",
+			"[a-zA-Z]+:",
+			"[.]*:$",
+			"[A-Za-z]*:$",
+			"'",
+			";\n",
+			"theme",
+			"color",
+			"theme",
+			"cobalt",
+			"cobal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\"\\1\"",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/pug/components/nav-mobile.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/pug/layout/header.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 97,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/pug/views/index.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "assets/sass/components/menu-mobile.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1214,
+								1214
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1184.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/pug/views/clients.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/pug/layout/main.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/pug/layout/nav.pug",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/data/locals.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "assets/sass/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "assets/sass/components/header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "assets/sass/lists.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								297
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "assets/sass/components/accordion.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "assets/sass/typography.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								318,
+								318
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 281.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "assets/sass/colors.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"auto_name": "$ddh-green: #008400;",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "assets/js/menu.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								951,
+								951
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 649.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.420731707317,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ddh.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 353.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
