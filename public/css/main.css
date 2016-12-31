@@ -283,5 +283,5 @@ div.nav-mobile .menu-toggle.active .menu-burger {
 
 body {
   background-color: #111;
-  background-image: url("/images/micro-carbon.png");
+  background-image: url("../images/micro-carbon.png");
   background-repeat: repeat; }
