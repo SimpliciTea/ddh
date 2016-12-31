@@ -13,15 +13,21 @@ div.content {
 }
 
 body {
-  background-color: #bada55;
   margin: 0px;
   padding: 0px;
+  margin: auto;
+}
+
+#main-container {
+  max-width: 900px;
+  margin: auto;
 }
 
 .img-wrap {
   width: 100%;
   position: relative;
-  display: table;
+  display: flex;
+  align-items: center;
 
   img {
     width: 100%;
@@ -32,12 +38,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color:  $ddh-white;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
     text-align: center;
+  }
+
+  &--home {
+    max-height: 300px;
+    overflow: hidden;
   }
 }
 

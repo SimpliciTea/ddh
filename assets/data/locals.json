@@ -1,7 +1,8 @@
 // data as Locals in JSON for Jade template rendering
+// http://rawgit.com/simplicitea/ddh/master/public
 
 {
-  "baseUrl": "http://rawgit.com/simplicitea/ddh/master/public",
+  "baseUrl": "",
   "menuItems": [
     {
       "text": "Home",

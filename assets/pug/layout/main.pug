@@ -6,6 +6,11 @@ html
     link(rel='stylesheet', href='css/main.css')
   body
     - var baseUrl = locals.baseUrl ? locals.baseUrl : ""
+    
+    // nav lives outside main container wrap 
+    include nav
+    div#menu-mask
+    
     div#main-container
       include header
       
@@ -15,8 +20,5 @@ html
 
     - console.log(locals)
 
-    // nav lives outside main container wrap 
-    include nav
-    div#menu-mask
 
     script(src="js/main.js", type="text/javascript")

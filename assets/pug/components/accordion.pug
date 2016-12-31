@@ -10,7 +10,8 @@ mixin accordion(params)
     each client, index in params
       div
         input(id='ac-'+index, name='accordion-'+index, type='checkbox')
-        label(for='ac-'+index) #{client.title}
+        label(for='ac-'+index) 
+          h2 #{client.title}
         article.ac-small
           p= client.title
 

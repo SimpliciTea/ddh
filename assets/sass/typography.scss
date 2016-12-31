@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans');
 
 
 * {
-  font-family: 'Open Sans', Arial, sans-serif;
-  color: white;
+  font-family: 'Josefin Sans', Arial, sans-serif;
+  color:  $ddh-white;
+  font-size: 16px;
 }
 
 h1 {
@@ -17,7 +18,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: $ddh-white;
 
   &:hover {
     color: #ccc;

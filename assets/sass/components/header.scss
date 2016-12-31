@@ -3,8 +3,11 @@ header {
   padding: 80px 15% 30px;
   position: relative;
   text-align: center;
+  z-index: 50;
 
   background-color: $ddh-green;
+  background-image: url('../images/dimension.png');
+  background-blend-mode: multiply;
   
   .logo {
     width: 100%;

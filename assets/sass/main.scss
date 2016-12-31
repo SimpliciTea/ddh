@@ -1,5 +1,5 @@
-@import "typography";
 @import "colors";
+@import "typography";
 @import "lists";
 @import "components/accordion";
 @import "components/header";
@@ -11,5 +11,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: $ddh-black;
+  background-image: url("/images/micro-carbon.png");
+  background-repeat: repeat;
 }

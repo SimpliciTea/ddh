@@ -10,7 +10,7 @@ ul {
 
     li {
       line-height: 50px;
-      border: 1px solid white;
+      border: 1px solid  $ddh-white;
       margin: 20px 0px;
       border-radius: 3px;
 
@@ -41,7 +41,7 @@ ul {
       font-size: 14px;
 
       &:hover {
-        color: white;
+        color:  $ddh-white;
       }
     }
   }

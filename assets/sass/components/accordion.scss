@@ -4,7 +4,6 @@
 	margin: 10px auto 30px auto;
 
 	label {
-		font-family: 'Arial Narrow', Arial, sans-serif;
 		padding: 15px 20px;
 		position: relative;
 		z-index: 20;
@@ -12,9 +11,8 @@
 		display: block;
 		border-radius: 4px;
 		cursor: pointer;
-		color: black;
+		color: $ddh-black;
 		line-height: 33px;
-		font-size: 19px;
 		background: $ddh-green;
 
 		&:hover {
