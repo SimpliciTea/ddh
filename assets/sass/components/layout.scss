@@ -1,3 +1,5 @@
+$wrapper-width: 900px;
+
 div.content {
   width: 100%;
   margin: auto;
@@ -18,6 +20,10 @@ body {
   margin: auto;
 }
 
+footer {
+  margin: 20px 0px;
+}
+
 #main-container {
   max-width: 900px;
   margin: auto;
@@ -33,17 +39,33 @@ body {
     width: 100%;
   }
 
-  .hover-text {
+  .cover-text {
+    padding: 3%;
     position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
     color:  $ddh-white;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
-    text-align: center;
+    
+    h2 {
+      font-size: 3em;
+      margin: 0;
+      font-weight: 200;
+      line-height: 0.95em;
+    }
+
+    li {
+      font-size: 1.5em;
+    }
+
+    li strong {
+      font-size: 1em;
+    }
   }
 
   &--home {
@@ -52,3 +74,62 @@ body {
   }
 }
 
+.nav-desktop {
+  display: none;
+}
+
+.content-contact {
+  h1 {
+    padding-bottom: 0;
+  }
+
+  hr {
+    width: 108%;
+    position: relative;
+    left: -5%;
+    margin: 20px auto;
+  }
+
+  li {
+    margin: 3px 0px;
+  }
+
+  a {
+    color: slateblue;
+  }
+}
+
+.content-experience {
+
+  &__consulting, &__tools {
+    border-bottom: 2px solid $ddh-white;  
+    width: 85%;
+    margin: auto;
+    padding: 0 10% 15px 3%;
+
+
+    h2 {
+      font-size: 1.8em;
+      margin: 20px 0px 10px 0px
+    }
+
+    h3 {
+      margin: 20px 0px 5px 0px;
+      font-weight: bold;
+    }
+
+    p {
+      margin: 5px 0px 10px 0px;
+    }
+  }
+}
+
+@media (min-width: $wrapper-width) {
+  .nav-mobile {
+    display: none;
+  }
+
+  .nav-desktop {
+    display: initial;
+  }
+}

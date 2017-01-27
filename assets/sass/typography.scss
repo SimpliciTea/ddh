@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Raleway:200,400');
 
-
-* {
-  font-family: 'Josefin Sans', Arial, sans-serif;
+body {
+  font-family: 'Raleway', Arial, sans-serif;
   color:  $ddh-white;
   font-size: 16px;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 2em;
   font-weight: normal;
   padding-top: 40px;
   padding-bottom: 6px;
@@ -36,6 +35,23 @@ a {
       margin: auto;      
     }
   }
+
+
+  &.home-center {
+    margin: 12px auto;
+    display: block;
+    color: white !important;
+    font-size: .9em;
+    text-align: center;
+    text-decoration: underline;
+  }
+}
+
+span.copyright {
+  font-size: .7em;
+  color: $ddh-white;
+  display: block;
+  text-align: center;
 }
 
 

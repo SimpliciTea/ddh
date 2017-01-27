@@ -2,7 +2,7 @@
 // http://rawgit.com/simplicitea/ddh/master/public
 
 {
-  "baseUrl": "http://rawgit.com/simplicitea/ddh/master/public",
+  "baseUrl": "",
   "menuItems": [
     {
       "text": "Home",
@@ -23,7 +23,6 @@
   ],
   "clients": [
     {
-      "headerImageUrl": "",
       "title": "AT&T",
       "description": "",
       "bullets": [ 
@@ -32,10 +31,15 @@
         "Responsive Email Design",
         "User Journey Mapping",
         "Wireframing (Omnigraffle)" 
-      ]
+      ],
+      "images": {
+        "logo1x": "att1x.png",
+        "logo2x": "att2x.png",
+        "cover500": "cover-att-500.jpg",
+        "cover900": "cover-att-900.jpg"
+      }
     },
     {
-      "headerImageUrl": "",
       "title": "Hacker Agency",
       "description": "2014 Redesign",
       "bullets": [
@@ -44,30 +48,45 @@
         "Branding and Ideation",
         "Wireframing",
         "LOB Negotiations"
-      ]
+      ],
+      "images": {
+        "logo1x": "hackeragency1x.png",
+        "logo2x": "hackeragency2x.png",
+        "cover500": "cover-hacker-500.jpg",
+        "cover900": "cover-hacker-900"
+      }
     },
     {
-      "headerImageUrl": "",
       "title": "One Medical",
       "description": "",
       "bullets": [
         "UX Research & Competitive Analysis",
         "Branding and Ideation",
         "Wireframing / UX Roadmapping"
-      ]
+      ],
+      "images": {
+        "logo1x": "att1x.png",
+        "logo2x": "att2x.png",
+        "cover500": "",
+        "cover900": ""
+      }
     },
     {
-      "headerImageUrl": "",
       "title": "Skoda",
       "description": "",
       "bullets": [
         "User Journey Mapping",
         "UX Research & Competitive Analysis",
         "Branding and Ideation"
-      ]
+      ],
+      "images": {
+        "logo1x": "att1x.png",
+        "logo2x": "att2x.png",
+        "cover500": "",
+        "cover900": ""
+      }
     },
     {
-      "headerImageUrl": "",
       "title": "Essence Healthcare",
       "description": "",
       "bullets": [
@@ -76,24 +95,41 @@
         "Branding and Ideation",
         "Wireframing",
         "RFP"
-      ]
+      ],
+      "images": {
+        "logo1x": "essence1x.png",
+        "logo2x": "essence2x.png",
+        "cover500": "",
+        "cover900": ""
+      }
     },
     {
-      "headerImageUrl": "",
       "title": "T-Mobile",
       "description": "Lead small team that collaborated with internal/external clients to translate complex business and legal requirements...",
-      "bullets": []
+      "bullets": [],
+      "images": {
+        "logo1x": "tmobile1x.png",
+        "logo2x": "tmobile2x.png",
+        "cover500": "cover-tmobile-500.jpg",
+        "cover900": "cover-tmobile-900.jpg"
+      }
     },
     {
-      "headerImageUrl": "",
       "title": "Wells Fargo",
       "description": "",
       "bullets": [
         "Information Architecture",
         "UX Research & Competitive Analysis",
         "Wireframing / UX Strategy Consulting"
-      ]
+      ],
+      "images": {
+        "logo1x": "wellsfargo1x.png",
+        "logo2x": "wellsfargo2x.png",
+        "cover500": "cover-wellsfargo-900.jpg",
+        "cover900": "cover-wellsfargo-900.jpg"
+      }
     }
   ]
 }
 
+  

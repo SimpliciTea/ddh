@@ -8,12 +8,13 @@ mixin accordion(params)
 
   section.ac-container
     each client, index in params
-      div
+      div.client
         input(id='ac-'+index, name='accordion-'+index, type='checkbox')
-        label(for='ac-'+index) 
-          h2 #{client.title}
+        label(for='ac-'+index)
+          img(class='client-cover', src='images/'+client.images.cover900)
+          img(class='client-logo', src='images/'+client.images.logo1x, srcset='images/'+client.images.logo2x+' 2x', alt='#{client.title}')
         article.ac-small
-          p= client.title
+          h2= client.title
 
           if client.description
             p #{client.description}

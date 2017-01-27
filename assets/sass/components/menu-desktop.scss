@@ -1,0 +1,25 @@
+.menu-desktop {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 500;
+  width: $wrapper-width;
+  margin: 0 auto;
+
+  .menu-items {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+
+    .menu-item {
+      padding: 0 15px;
+      border-right: 1px solid $ddh-white;
+
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+}

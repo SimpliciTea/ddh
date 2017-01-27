@@ -1,1 +1,7 @@
+div.nav-desktop
+  nav.menu-desktop
+    ul.menu-items
+      each item in locals.menuItems
+        li.menu-item
+          a.menu-link(href=`${baseUrl + item.url}`)= item.text
 

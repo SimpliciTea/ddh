@@ -3,8 +3,14 @@
 	width: 85%;
 	margin: 10px auto 30px auto;
 
+  .client {
+    overflow: hidden;
+    position: relative;
+    max-height: 500px;
+  }
+
 	label {
-		padding: 15px 20px;
+		padding: 0px;
 		position: relative;
 		z-index: 20;
     text-align: center;
@@ -12,8 +18,23 @@
 		border-radius: 4px;
 		cursor: pointer;
 		color: $ddh-black;
+    height: 500px;
+    overflow: hidden;
 		line-height: 33px;
-		background: $ddh-green;
+    
+
+    .client-cover {
+      max-width: 100%;
+      min-height: 100%;
+      opacity: 0.7;
+    }
+
+    .client-logo {
+      position: absolute;
+      right: 12%;
+      top: 6%;
+      z-index: 200;
+    }
 
 		&:hover {
 
@@ -28,40 +49,52 @@
 	}
 
 	article {
-		
-		margin-top: -1px;
+    width: 88%;
+    height: auto;
+    padding: 0;
 		overflow: hidden;
-    margin-bottom: 20px;
-		max-height: 0px;
-		position: relative;
-		z-index: 10;
-		transition: 
-			max-height 0.3s ease-in-out,
-			box-shadow 0.6s linear;
+		position: absolute;
+    bottom: 12%;
+    left: -100%;
+		z-index: 20;
+		transition: left 0.3s ease-in-out;
 
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 		
+    h2 {
+      width: 100%;
+      margin: 0;
+      padding: 20px 10px 15px 30px;
+      background-color: $ddh-black;
+      font-family: Raleway;
+      font-weight: 100;
+      font-size: 2.5em;
+    }
+
+    p {
+      background-color: $ddh-black;
+      padding: 10px 10px 15px 30px;
+      width: 100%;
+      margin: 0;
+    }
 
     ul {
+      width: 100%;
+      background-color: $ddh-black;
+      padding: 10px 10px 20px 30px;
     }
 	}
 
 	input:checked {
-		~ article.ac-small {
-			max-height: 400px;
-		}
-
-		~ article.ac-medium {
-			max-height: 400px;
-		}
-
-		~ article.ac-large {
-			max-height: 400px;
-		}
+		~ article {
+      left: 0;
+    }
 	}
 
 	input:checked ~ article {
 		transition:
-			max-height 0.5s ease-in-out,
-			box-shadow 0.1s linear;
+			left 0.5s ease-in-out,
 	}
 }

@@ -1,10 +1,11 @@
 @import "colors";
 @import "typography";
 @import "lists";
+@import "components/layout";
 @import "components/accordion";
 @import "components/header";
-@import "components/layout";
 @import "components/menu-mobile";
+@import "components/menu-desktop";
 
 *, html {
   box-sizing: border-box;

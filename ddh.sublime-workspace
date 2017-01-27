@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"nav",
+				"nav-mobile--anchored"
+			],
+			[
 				"burger",
 				"burger-width"
 			]
@@ -21,94 +25,19 @@
 			}
 		},
 		{
-			"file": "assets/pug/layout/header.pug",
+			"file": "assets/pug/components/nav-desktop.pug",
 			"settings":
 			{
-				"buffer_size": 97,
+				"buffer_size": 174,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/pug/views/index.pug",
+			"file": "assets/sass/components/menu-desktop.scss",
 			"settings":
 			{
-				"buffer_size": 322,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/sass/components/menu-mobile.scss",
-			"settings":
-			{
-				"buffer_size": 3252,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/pug/views/clients.pug",
-			"settings":
-			{
-				"buffer_size": 173,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/pug/layout/main.pug",
-			"settings":
-			{
-				"buffer_size": 498,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/data/locals.json",
-			"settings":
-			{
-				"buffer_size": 2275,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/sass/main.scss",
-			"settings":
-			{
-				"buffer_size": 257,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/sass/components/header.scss",
-			"settings":
-			{
-				"buffer_size": 203,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/sass/lists.scss",
-			"settings":
-			{
-				"buffer_size": 664,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/sass/components/accordion.scss",
-			"settings":
-			{
-				"buffer_size": 924,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 85,
+				"buffer_size": 0,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -117,24 +46,53 @@
 			"file": "assets/sass/typography.scss",
 			"settings":
 			{
-				"buffer_size": 553,
+				"buffer_size": 602,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/sass/colors.scss",
+			"file": "assets/pug/layout/main.pug",
 			"settings":
 			{
-				"buffer_size": 21,
-				"line_ending": "Unix",
-				"name": "$ddh-green: #008400;"
+				"buffer_size": 508,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/js/menu.js",
+			"file": "assets/sass/components/header.scss",
 			"settings":
 			{
-				"buffer_size": 1018,
+				"buffer_size": 417,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/pug/components/accordion.pug",
+			"settings":
+			{
+				"buffer_size": 844,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/components/layout.scss",
+			"settings":
+			{
+				"buffer_size": 862,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 346,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -195,11 +153,30 @@
 		"/home/john/Sites/ddh/assets/sass",
 		"/home/john/Sites/ddh/assets/sass/components",
 		"/home/john/Sites/ddh/bin",
-		"/home/john/Sites/ddh/public"
+		"/home/john/Sites/ddh/public/images"
 	],
 	"file_history":
 	[
+		"/home/john/Sites/ddh/assets/data/locals.json",
+		"/home/john/Sites/ddh/assets/pug/views/index.pug",
+		"/home/john/Sites/ddh/assets/sass/components/header.scss",
 		"/home/john/Sites/ddh/assets/sass/components/layout.scss",
+		"/home/john/Sites/ddh/assets/pug/components/accordion.pug",
+		"/home/john/Sites/ddh/assets/sass/components/accordion.scss",
+		"/home/john/Sites/ddh/assets/sass/typography.scss",
+		"/home/john/Sites/ddh/assets/sass/components/menu-mobile.scss",
+		"/home/john/Sites/ddh/assets/js/menu.js",
+		"/home/john/Sites/ddh/public/skills.html",
+		"/home/john/Sites/ddh/assets/js/bundle-map.js",
+		"/home/john/Sites/ddh/assets/js/polyfills.js",
+		"/etc/bluetooth/main.conf",
+		"/home/john/Sites/ddh/assets/sass/lists.scss",
+		"/home/john/Sites/ddh/assets/sass/colors.scss",
+		"/home/john/Sites/ddh/assets/sass/main.scss",
+		"/home/john/Sites/ddh/assets/pug/layout/header.pug",
+		"/home/john/Sites/ddh/.gitignore",
+		"/home/john/Sites/ddh/assets/pug/layout/main.pug",
+		"/home/john/Sites/ddh/assets/pug/views/clients.pug",
 		"/home/john/Sites/.gitignore",
 		"/home/john/Sites/ddh/assets/pug/components/Herloom Blog.sublime-workspace",
 		"/var/www/html/blog/wp-content/themes/blankslate/front-pageee.php",
@@ -258,7 +235,6 @@
 		"/etc/apache2/sites-available/000-default.conf",
 		"/etc/apache2/apache.conf",
 		"/home/john/Sites/ddh/assets/pug/components/nav-mobile.pug",
-		"/home/john/Sites/ddh/assets/js/bundle-map.js",
 		"/home/john/Sites/menu-mobile/public/index.html",
 		"/home/john/Sites/menu-mobile/package.json",
 		"/home/john/Sites/menu-mobile/assets/pug/views/index.pug",
@@ -308,25 +284,7 @@
 		"/home/john/Sites/jade/assets/views/includes/layout/layout.pug",
 		"/home/john/Sites/jade/assets/views/layout.pug",
 		"/home/john/Sites/jade/views/layout.pug",
-		"/home/john/Sites/jade/views/includes/layout/header.pug",
-		"/home/john/Sites/jade/bin/watch-sass",
-		"/home/john/Sites/jade/assets/sass/public/main.scss",
-		"/home/john/Sites/jade/public/style.css",
-		"/home/john/Sites/jade/bin/build-sass",
-		"/home/john/Sites/jade/views/index.pug",
-		"/home/john/Sites/jade/assets/sass/public/components/accordion.scss",
-		"/home/john/Sites/jade/public/menu.js",
-		"/home/john/Sites/jade/assets/sass/public/mixins.scss",
-		"/home/john/Sites/jade/assets/sass/public/components/mixins.scss",
-		"/home/john/Sites/jade/views/includes/components/nav-desktop.pug",
-		"/home/john/Sites/jade/assets/sass/public/style.scss",
-		"/home/john/Sites/jade/views/includes/layout/nav.pug",
-		"/home/john/Sites/jade/views/includes/components/menu-desktop.pug",
-		"/home/john/Sites/jade/views/includes/menu-mobile.pug",
-		"/home/john/Sites/jade/views/includes/menu.pug",
-		"/home/john/Sites/jade/views/includes/nav.pug",
-		"/home/john/Sites/jade/data/clients.js",
-		"/home/john/Sites/jade/views/header.pug"
+		"/home/john/Sites/jade/views/includes/layout/header.pug"
 	],
 	"find":
 	{
@@ -337,6 +295,14 @@
 		"height": 95.0,
 		"where_history":
 		[
+			"<project>,*.scss",
+			"<project>",
+			"<project>, *.sass",
+			"/home/john/Sites/ddh/*, *.sass",
+			"/home/john/Sites/ddh, *.sass",
+			"<current file>,*.txt,/home/john/Sites/ddh",
+			"<current file>,*.sass",
+			"<current file>,/sass/",
 			"<current file>",
 			""
 		]
@@ -346,6 +312,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"font",
+			"wrapper",
+			"menu-mask",
+			"z-",
+			"black",
+			"#000",
+			"#bada55",
+			"#FFF",
+			"\\$ddh-;",
+			"$ddh-;",
+			"$ddh-",
+			"white",
+			"[^ddh-]white",
+			"white",
+			"black",
+			"#000",
 			"2",
 			"article",
 			"nav-above",
@@ -393,6 +375,8 @@
 		"regex": true,
 		"replace_history":
 		[
+			" $ddh-white;",
+			" $ddh-",
 			"\"\\1\"",
 			"\""
 		],
@@ -405,7 +389,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -421,41 +405,13 @@
 						"selection":
 						[
 							[
-								105,
-								105
+								226,
+								226
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "assets/pug/layout/header.pug",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 97,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								97,
-								97
-							]
-						],
-						"settings":
-						{
 							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -466,20 +422,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "assets/pug/views/index.pug",
+					"buffer": 1,
+					"file": "assets/pug/components/nav-desktop.pug",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 322,
+						"buffer_size": 174,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								104,
-								104
+								34,
+								34
 							]
 						],
 						"settings":
@@ -490,92 +446,58 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 8,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 3,
-					"file": "assets/sass/components/menu-mobile.scss",
+					"buffer": 2,
+					"file": "assets/sass/components/menu-desktop.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3252,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1214,
-								1214
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1184.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "assets/pug/views/clients.pug",
+					"buffer": 3,
+					"file": "assets/sass/typography.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 173,
+						"buffer_size": 602,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								99,
-								99
+								185,
+								185
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "assets/pug/layout/main.pug",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 498,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								143,
-								143
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -585,25 +507,112 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "assets/data/locals.json",
+					"buffer": 4,
+					"file": "assets/pug/layout/main.pug",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2275,
+						"buffer_size": 508,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								75,
-								75
+								332,
+								332
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 32.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/sass/components/header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								417,
+								417
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/pug/components/accordion.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/sass/components/layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								859,
+								859
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -611,22 +620,28 @@
 					},
 					"stack_index": 2,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "assets/sass/main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 257,
+						"buffer_size": 346,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								39,
-								39
+								180,
+								180
 							]
 						],
 						"settings":
@@ -638,210 +653,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "assets/sass/components/header.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 203,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								82,
-								82
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "assets/sass/lists.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 664,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								297,
-								297
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "assets/sass/components/accordion.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 924,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								178,
-								178
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 85,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								85,
-								85
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Cobalt2 Flat Theme/langs/Git.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "assets/sass/typography.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 553,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								318,
-								318
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 281.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "assets/sass/colors.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13,
-								13
-							]
-						],
-						"settings":
-						{
-							"auto_name": "$ddh-green: #008400;",
-							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "assets/js/menu.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1018,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								951,
-								951
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 649.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -880,7 +692,7 @@
 		"rows":
 		[
 			0.0,
-			0.420731707317,
+			0.420804806732,
 			1.0
 		]
 	},
@@ -923,7 +735,7 @@
 		],
 		"width": 353.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

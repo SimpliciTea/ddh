@@ -5,44 +5,18 @@ ul {
 
   &.list-skills {
     text-align: center;
+    font-family: 'Courier', monospace;
+    font-size: 1.4em;
     width: 85%;
     margin: auto;
+    border-top: 2px solid $ddh-white;
+    border-bottom: 2px solid $ddh-white;
 
     li {
-      line-height: 50px;
+      line-height: 70px;
       border: 1px solid  $ddh-white;
       margin: 20px 0px;
       border-radius: 3px;
-
-      &:first-child {
-        margin-top: 10px;
-      }
-    }
-  }
-
-  &.list-experience {
-    margin: auto;
-    margin-top: 30px;
-    width: 85%;
-
-
-    li {
-      border-top: 1px solid #666;
-      padding: 15px 0px;
-    }
-
-    p {
-      margin: 0px 0px 7px 0px;
-    }
-
-    a {
-      color: #557EFF;
-      text-decoration: underline;
-      font-size: 14px;
-
-      &:hover {
-        color:  $ddh-white;
-      }
     }
   }
 }

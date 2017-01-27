@@ -3,7 +3,16 @@ extends ../layout/main
 block content
   div.img-wrap.img-wrap--home
     img(src=`${baseUrl}/images/home-image.jpg`, style="opacity: 0.6")
-    span.hover-text "Sorry"
+    div.cover-text
+      h2 Why #[br] Digitalddh?
+      
+      ul
+        li Passion &amp; Creativity
+        li Effective design
+      
+      ul  
+        li #[strong Thoughtful]
+        li #[strong Professionalism]
 
   a.box-link(href=`${baseUrl}/clients.html`) 
     span.box-link-text See clients and projects?
