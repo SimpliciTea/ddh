@@ -2,7 +2,7 @@
 // http://rawgit.com/simplicitea/ddh/master/public
 
 {
-  "baseUrl": "",
+  "baseUrl": "http://rawgit.com/simplicitea/ddh/master/public",
   "menuItems": [
     {
       "text": "Home",
