@@ -1,12 +1,13 @@
 
 .ac-container {
-	width: 85%;
+	width: 90%;
 	margin: 10px auto 30px auto;
 
   .client {
     overflow: hidden;
     position: relative;
-    max-height: 500px;
+    max-height: 600px;
+    margin-bottom: 12px;
   }
 
 	label {
@@ -18,21 +19,22 @@
 		border-radius: 4px;
 		cursor: pointer;
 		color: $ddh-black;
-    height: 500px;
     overflow: hidden;
 		line-height: 33px;
     
 
     .client-cover {
-      max-width: 100%;
-      min-height: 100%;
       opacity: 0.7;
+      max-height: 100%;
+      width: 100%
     }
 
     .client-logo {
       position: absolute;
-      right: 12%;
-      top: 6%;
+      right: 8%;
+      top: 10%;
+      max-height: 20%;
+      max-width: 50%;
       z-index: 200;
     }
 
@@ -42,6 +44,14 @@
 
 			}
 		}
+
+    @media (min-width: 700px) {
+      .client-logo {
+        top: 6%;
+        max-height: 20%;
+        max-width: 40%;
+      }
+    }
 	}
 
 	input {
@@ -57,24 +67,26 @@
     bottom: 12%;
     left: -100%;
 		z-index: 20;
+    font-size: 16px;
 		transition: left 0.3s ease-in-out;
 
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    background: rgba(89,89,89,0.5);
 		
     h2 {
       width: 100%;
       margin: 0;
       padding: 20px 10px 15px 30px;
-      background-color: $ddh-black;
+      // background-color: $ddh-black;
       font-family: Raleway;
       font-weight: 100;
       font-size: 2.5em;
     }
 
     p {
-      background-color: $ddh-black;
+      // background-color: $ddh-black;
       padding: 10px 10px 15px 30px;
       width: 100%;
       margin: 0;
@@ -82,7 +94,7 @@
 
     ul {
       width: 100%;
-      background-color: $ddh-black;
+      // background-color: $ddh-black;
       padding: 10px 10px 20px 30px;
     }
 	}
@@ -97,4 +109,9 @@
 		transition:
 			left 0.5s ease-in-out,
 	}
+
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
 }

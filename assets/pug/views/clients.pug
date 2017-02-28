@@ -3,6 +3,9 @@ include ../components/accordion
 
 block content
   div.content.content-clients
+    a.back-link(href=`${baseUrl}/`)
+      img(src=`${baseUrl}/images/Triangle.png`)
+      span back
     h1 Clients &amp; Projects
     
     +accordion(locals.clients)

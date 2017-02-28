@@ -1,10 +1,10 @@
 $burger-height: 40px;
 $burger-width: 40px;
-$bar-thickness: 4px;
+$bar-thickness: 3px;
 $burger-padding: 6px;
 $burger-bar-space: -10px;
 $burger-transition-duration: 0.1s;
-$burger-color: lighten($ddh-black, 10%);
+$burger-color: $ddh-white;
 
 $top-nav-height: 50px;
 
@@ -15,7 +15,7 @@ div.nav-mobile {
   width: 100%;
   height: $top-nav-height;
   z-index: 260;
-  background-color: lighten($ddh-green, 2%);
+  background-color: transparent;
   transition: top 0.3s;
 
   &.active {
@@ -23,7 +23,7 @@ div.nav-mobile {
   }
 
   &.nav-mobile--anchored {
-    top: -$top-nav-height;
+    top: 0;
   }
 
   button.menu-toggle {
@@ -193,6 +193,38 @@ div.nav-mobile .menu-toggle {
         transition-delay: 0s, $burger-transition-duration, 0s;
         background:  $ddh-white;
       }
+    }
+  }
+}
+
+a.mobile-nav-logo {
+  display: inline-block;
+  height: $top-nav-height;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  justify-content: flex-end;
+  z-index: 150;
+  padding: 5px;
+
+  img {
+    height: 100%;
+  }
+}
+
+div.nav-mobile {
+  a.mobile-nav-logo {
+    display: none;
+  }
+
+  &--anchored {
+    background-image: url('/images/header-bg-slim.jpg');
+    background-position: bottom;
+    background-size: 100%;
+
+    a.mobile-nav-logo {
+      display: inline-block;
     }
   }
 }

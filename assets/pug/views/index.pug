@@ -2,9 +2,9 @@ extends ../layout/main
 
 block content
   div.img-wrap.img-wrap--home
-    img(src=`${baseUrl}/images/home-image.jpg`, style="opacity: 0.6")
+    img(src=`${baseUrl}/images/absinthe-home.jpg`)
     div.cover-text
-      h2 Why #[br] Digitalddh?
+      h2 #[strong Why #[br] Digital]ddh?
       
       ul
         li Passion &amp; Creativity
@@ -14,7 +14,13 @@ block content
         li #[strong Thoughtful]
         li #[strong Professionalism]
 
-  a.box-link(href=`${baseUrl}/clients.html`) 
+  a.box-link(href=`${baseUrl}/clients.html`)
+    span.flex-filler
     span.box-link-text See clients and projects?
+    span.flex-filler
+      img(src=`${baseUrl}/images/Right Chevron.png`)
   a.box-link(href=`${baseUrl}/skills.html`)
+    span.flex-filler
     span.box-link-text See education and skills
+    span.flex-filler
+      img(src=`${baseUrl}/images/Right Chevron.png`)

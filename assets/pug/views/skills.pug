@@ -3,7 +3,10 @@ extends ../layout/main
 block content
 
   div.content.content-experience
-    h1 Skills &amp; Experience
+    a.back-link(href=`${baseUrl}/`)
+      img(src=`${baseUrl}/images/Triangle.png`)
+      span back
+    h1 Skills
     ul.list-skills
       li UX/UI Design
       li Client Consulting
@@ -13,18 +16,14 @@ block content
     div.content-experience__consulting
       h2 Consulting
 
-      h3 Creative Circle
-      p 2015 - "It was fun to have Dillon on my team. He was always enthusiastic and happy to tackle anything the client threw at us. I appreciated his fearless approach, always looking for new ideas, and at ease with the clients". - Lad
+      h3 2015 - Avenade
+      p 2015 - &quot;It was fun to have Dillon on my team. He was always enthusiastic and happy to tackle anything the client threw at us. I appreciated his fearless approach, always looking for new ideas, and at ease with the clients.&quot;
 
-      h3 Avanade
-      p 2015 - Have you ever had a client that doesn't know what they want, but they have a hard-stop deadline? That's when you need to have Dillon on your team! Dillon can get that wireframe, mock-up, or design spec done on time & under budget. He's an innovative thinker that can deliver a product from conceptual design to creation! - Toni
-
-      h3 K-Force
-
-      h3 Insight Global
+      h3 2015 - POP
+      p &quot;Have you ever had a client that doesn't know what they want, but they have a hard-stop deadline? That's when you need to have Dillon on your team! Dillon can get that wireframe, mock-up, or design spec done on time &amp; under budget. He's an innovative thinker that can deliver a product.&quot;
 
     div.content-experience__tools
-      h2 Tools
+      h2 Design Tools
       
       h3 Adobe CC
       ul

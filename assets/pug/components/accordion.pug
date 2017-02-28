@@ -14,7 +14,7 @@ mixin accordion(params)
           img(class='client-cover', src='images/'+client.images.cover900)
           img(class='client-logo', src='images/'+client.images.logo1x, srcset='images/'+client.images.logo2x+' 2x', alt='#{client.title}')
         article.ac-small
-          h2= client.title
+          //- h2= client.title
 
           if client.description
             p #{client.description}

@@ -6,17 +6,37 @@ ul {
   &.list-skills {
     text-align: center;
     font-family: 'Courier', monospace;
-    font-size: 1.4em;
-    width: 85%;
+    width: 100%;
+    padding: 0px 15px;
     margin: auto;
-    border-top: 2px solid $ddh-white;
-    border-bottom: 2px solid $ddh-white;
+    
 
     li {
-      line-height: 70px;
+      line-height: 75px;
       border: 1px solid  $ddh-white;
       margin: 20px 0px;
-      border-radius: 3px;
+      font-size: 24px;
+      border-radius: 5px;
+    }
+
+    li:first-child {
+      margin-top: 0px;
+    }
+
+
+    @media (min-width: 700px) {
+      width: 90%;
+      border-bottom: 2px solid $ddh-white;
+      padding: 0px;
+
+      li {
+        line-height: 130px;
+        font-size: 32px;
+      }
+
+      li:first-child {
+        margin-top: 20px;
+      }
     }
   }
 }

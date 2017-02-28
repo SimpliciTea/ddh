@@ -61,7 +61,7 @@ require('./menu.js');
   Menu.prototype._handlePageScroll = function() {
     var currY = window.scrollY;
     var header = document.querySelector('header');
-
+    var content = document.querySelector('div.content');
       
     // scrolling down?
     if (currY > this.lastScrollPosition) {
@@ -75,8 +75,10 @@ require('./menu.js');
 
     // must be scrolling up!
     else {
-      if (this.wrapper.classList.contains('nav-mobile--anchored')) {
-        this.wrapper.classList.remove('nav-mobile--anchored');
+      if (currY < header.clientHeight - 50) {
+        if (this.wrapper.classList.contains('nav-mobile--anchored')) {
+          this.wrapper.classList.remove('nav-mobile--anchored');
+        }
       }
     }
 

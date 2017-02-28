@@ -1,25 +1,43 @@
 header {
   width: 100%;
-  padding: 30px 15% 30px;
-  margin-top: 50px;
+  padding: 60px 0px 20px;
+  margin-top: 0px;
   position: relative;
   text-align: center;
   z-index: 50;
 
-  background-image: url('../images/header-bg-masked.jpg');
+  background-image: url('../images/header-bg-slim.jpg');
   background-position: center;
   background-size: 100% 100%;
   
   .logo {
     width: 100%;
-    max-width: 500px;
+    max-width: 55%;
     margin: auto;
   }
 
+  .logo + h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    color: $ddh-white;
+  }
 
-  @media (min-width: $wrapper-width) {
+
+  @media (min-width: 700px) {
+    padding-top: 100px;
     margin-top: 0px;
-    padding-top: 80px;
+
+
+    .logo {
+      max-width: 460px;
+    }
+
+    .logo + h3 {
+      font-size: 24px;
+      margin-bottom: 36px;
+    }
   }
 }
 

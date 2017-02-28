@@ -13,7 +13,7 @@
       "url": "/clients.html"
     },
     {
-      "text": "Skills & Education",
+      "text": "Skills & Experience",
       "url": "/skills.html"
     },
     {
@@ -33,15 +33,15 @@
         "Wireframing (Omnigraffle)" 
       ],
       "images": {
-        "logo1x": "att1x.png",
-        "logo2x": "att2x.png",
-        "cover500": "cover-att-500.jpg",
-        "cover900": "cover-att-900.jpg"
+        "logo1x": "logo-att.png",
+        "logo2x": "logo-att.png",
+        "cover500": "cover-att-x900.jpg",
+        "cover900": "cover-att-x900.jpg"
       }
     },
     {
-      "title": "Hacker Agency",
-      "description": "2014 Redesign",
+      "title": "Chase",
+      "description": "",
       "bullets": [
         "Information Architecture",
         "UX Research & Competitive Analysis",
@@ -50,14 +50,14 @@
         "LOB Negotiations"
       ],
       "images": {
-        "logo1x": "hackeragency1x.png",
-        "logo2x": "hackeragency2x.png",
-        "cover500": "cover-hacker-500.jpg",
-        "cover900": "cover-hacker-900"
+        "logo1x": "logo-chase.png",
+        "logo2x": "logo-chase.png",
+        "cover500": "cover-chase-x900.jpg",
+        "cover900": "cover-chase-x900.jpg"
       }
     },
     {
-      "title": "One Medical",
+      "title": "Wells Fargo",
       "description": "",
       "bullets": [
         "UX Research & Competitive Analysis",
@@ -65,10 +65,10 @@
         "Wireframing / UX Roadmapping"
       ],
       "images": {
-        "logo1x": "att1x.png",
-        "logo2x": "att2x.png",
-        "cover500": "",
-        "cover900": ""
+        "logo1x": "logo-wells.png",
+        "logo2x": "logo-wells.png",
+        "cover500": "cover-essence-x900.jpg",
+        "cover900": "cover-essence-x900.jpg"
       }
     },
     {
@@ -80,27 +80,10 @@
         "Branding and Ideation"
       ],
       "images": {
-        "logo1x": "att1x.png",
-        "logo2x": "att2x.png",
-        "cover500": "",
-        "cover900": ""
-      }
-    },
-    {
-      "title": "Essence Healthcare",
-      "description": "",
-      "bullets": [
-        "User Journey mapping",
-        "UX Research & Competitive Analysis",
-        "Branding and Ideation",
-        "Wireframing",
-        "RFP"
-      ],
-      "images": {
-        "logo1x": "essence1x.png",
-        "logo2x": "essence2x.png",
-        "cover500": "",
-        "cover900": ""
+        "logo1x": "logo-att.png",
+        "logo2x": "logo-att.png",
+        "cover500": "cover-skoda-x900.jpg",
+        "cover900": "cover-skoda-x900.jpg"
       }
     },
     {
@@ -123,8 +106,8 @@
         "Wireframing / UX Strategy Consulting"
       ],
       "images": {
-        "logo1x": "wellsfargo1x.png",
-        "logo2x": "wellsfargo2x.png",
+        "logo1x": "logo-wells.png",
+        "logo2x": "logo-wells.png",
         "cover500": "cover-wellsfargo-900.jpg",
         "cover900": "cover-wellsfargo-900.jpg"
       }

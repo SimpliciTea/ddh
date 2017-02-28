@@ -1,6 +1,8 @@
 div.nav-mobile
   button.menu-toggle 
     span.menu-burger toggle menu
+  a.mobile-nav-logo(href=`${baseUrl}/`)
+    img(src=`${baseUrl}/images/digital-ddh-logo.svg`)
   nav.menu-mobile
     ul.menu-items
       each item in locals.menuItems

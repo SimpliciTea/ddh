@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Raleway:200,400');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Raleway:200,400,600');
 
 body {
   font-family: 'Raleway', Arial, sans-serif;
@@ -7,16 +7,22 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 36px;
   font-weight: normal;
-  padding-top: 40px;
-  padding-bottom: 6px;
-  width: 85%;
+  padding: 15px 15px 10px;
+  width: 100%;
   margin: auto;
+
+  @media (min-width: 700px) {
+    font-size: 55px;
+    width: 90%;
+    padding: 15px 0px 6px;
+  }
 }
 
 a {
   text-decoration: none;
+  cursor: pointer;
   color: $ddh-white;
 
   &:hover {
@@ -25,14 +31,44 @@ a {
 
   &.box-link {
     display: flex;
-    height: 100px;
+    height: 120px;
     width: 100%;
     border: 1px solid #666;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+
+    & span {
+      display: flex;
+      flex-grow: 1;
+      justify-content: center;
+    }
 
     .box-link-text {
-      margin: auto;      
+      margin: auto;
+      font-size: 24px;
+    }
+
+    @media (min-width: 700px) {
+      height: 200px;
+
+      .box-link-text {
+        font-size: 34px;
+      }
+    }
+  }
+
+
+  &.back-link {
+    display: none;
+
+    @media (min-width: 700px) {
+      display: flex;
+      margin: 3% 5% 2%;
+      align-items: center;
+
+      & span {
+        margin-left: 20px;
+      }
     }
   }
 
@@ -48,7 +84,8 @@ a {
 }
 
 span.copyright {
-  font-size: .7em;
+  font-size: 16px;
+  font-weight: 600;
   color: $ddh-white;
   display: block;
   text-align: center;
