@@ -467,7 +467,7 @@ div.nav-mobile a.mobile-nav-logo {
   display: none; }
 
 div.nav-mobile--anchored {
-  background-image: url("/images/header-bg-slim.jpg");
+  background-image: url("../images/header-bg-slim.jpg");
   background-position: bottom;
   background-size: 100%; }
   div.nav-mobile--anchored a.mobile-nav-logo {
