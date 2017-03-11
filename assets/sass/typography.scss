@@ -7,14 +7,14 @@ body {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: normal;
   padding: 15px 15px 10px;
   width: 100%;
   margin: auto;
 
   @media (min-width: 700px) {
-    font-size: 55px;
+    font-size: 45px;
     width: 90%;
     padding: 15px 0px 6px;
   }
@@ -49,11 +49,15 @@ a {
     }
 
     @media (min-width: 700px) {
-      height: 200px;
+      height: 180px;
 
       .box-link-text {
         font-size: 34px;
       }
+    }
+
+    @media (max-width: 1200px) {
+      border-width: 1px 0px 1px 0px;
     }
   }
 

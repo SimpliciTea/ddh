@@ -5,49 +5,26 @@
   "baseUrl": "http://rawgit.com/simplicitea/ddh/master/public",
   "menuItems": [
     {
-      "text": "Home",
-      "url": "/"
-    },
-    {
-      "text": "Clients and Projects",
+      "text": "Clients",
       "url": "/clients.html"
     },
     {
-      "text": "Skills & Experience",
+      "text": "Skills",
       "url": "/skills.html"
     },
     {
-      "text": "Contact Details",
+      "text": "Contact",
       "url": "/contact.html"
     }
   ],
   "clients": [
     {
-      "title": "AT&T",
-      "description": "",
-      "bullets": [ 
-        "Direct Marketing",
-        "UX Research & Competitor Analysis",
-        "Responsive Email Design",
-        "User Journey Mapping",
-        "Wireframing (Omnigraffle)" 
-      ],
-      "images": {
-        "logo1x": "logo-att.png",
-        "logo2x": "logo-att.png",
-        "cover500": "cover-att-x900.jpg",
-        "cover900": "cover-att-x900.jpg"
-      }
-    },
-    {
       "title": "Chase",
       "description": "",
       "bullets": [
-        "Information Architecture",
-        "UX Research & Competitive Analysis",
-        "Branding and Ideation",
-        "Wireframing",
-        "LOB Negotiations"
+        "Representing best in class UX & Visual design for iOS & Android. Audience scale is between 24-32 million active users via mobile.",
+        "Collaboratively, working with various agile teams that span across multiple digital and financial lines of business",
+        "4.5 stars in App Store"
       ],
       "images": {
         "logo1x": "logo-chase.png",
@@ -57,59 +34,66 @@
       }
     },
     {
-      "title": "Wells Fargo",
+      "title": "AT&T",
       "description": "",
-      "bullets": [
+      "bullets": [ 
+        "Direct Marketing campaigns, recipient scale multi millions",
         "UX Research & Competitive Analysis",
-        "Branding and Ideation",
-        "Wireframing / UX Roadmapping"
-      ],
-      "images": {
-        "logo1x": "logo-wells.png",
-        "logo2x": "logo-wells.png",
-        "cover500": "cover-essence-x900.jpg",
-        "cover900": "cover-essence-x900.jpg"
-      }
-    },
-    {
-      "title": "Skoda",
-      "description": "",
-      "bullets": [
-        "User Journey Mapping",
-        "UX Research & Competitive Analysis",
-        "Branding and Ideation"
+        "Responsive Email Design",
+        "User Journey planning",
+        "Concepting and Wireframing" 
       ],
       "images": {
         "logo1x": "logo-att.png",
         "logo2x": "logo-att.png",
-        "cover500": "cover-skoda-x900.jpg",
-        "cover900": "cover-skoda-x900.jpg"
+        "cover500": "cover-att-x900.jpg",
+        "cover900": "cover-att-x900.jpg"
+      }
+    },
+    {
+      "title": "Hacker Agency",
+      "description": "",
+      "bullets": [
+        "Effectively communicate conceptual ideas and specifications on end user interactions",
+        "Comparative and competitive analysis",
+        "Develop design solutions that address client and brand needs",
+        "Concepted and Launched Rebrand and Redesign: Hacker Agency 2014"
+      ],
+      "images": {
+        "logo1x": "logo-wells.png",
+        "logo2x": "logo-wells.png",
+        "cover500": "cover-hacker-x900.jpg",
+        "cover900": "cover-hacker-x900.jpg"
       }
     },
     {
       "title": "T-Mobile",
-      "description": "Lead small team that collaborated with internal/external clients to translate complex business and legal requirements...",
-      "bullets": [],
+      "description": "",
+      "bullets": [
+        "UX consultant for bootstrap mobile first approach to build one system across all T-Mobile digital platforms.",
+        "Lead a team, conducted UX research & created IXD mockups for JAD sessions with LOB representatives.",
+        "Project spanned over 8 months on site at T-Mobile. Launch reach affecting all digital online and mobile users of TMO services"
+      ],
       "images": {
         "logo1x": "tmobile1x.png",
         "logo2x": "tmobile2x.png",
-        "cover500": "cover-tmobile-500.jpg",
-        "cover900": "cover-tmobile-900.jpg"
+        "cover500": "cover-tmobile-x900.jpg",
+        "cover900": "cover-tmobile-x900.jpg"
       }
     },
     {
       "title": "Wells Fargo",
       "description": "",
       "bullets": [
-        "Information Architecture",
-        "UX Research & Competitive Analysis",
-        "Wireframing / UX Strategy Consulting"
+        "Leading studio projects for varying lines of business at Wells Fargo. Average monthly views 100s of millions.",
+        "Public site IXD lead and IA architecture responsibilities. Active monthly views over 200 million.",
+        "Presenting and supporting IXD solutions with accessibility and usability testing results"
       ],
       "images": {
         "logo1x": "logo-wells.png",
         "logo2x": "logo-wells.png",
-        "cover500": "cover-wellsfargo-900.jpg",
-        "cover900": "cover-wellsfargo-900.jpg"
+        "cover500": "cover-wells-x900.jpg",
+        "cover900": "cover-wells-x900.jpg"
       }
     }
   ]

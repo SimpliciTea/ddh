@@ -113,8 +113,9 @@ div.nav-mobile {
 
     .menu-item {
       margin: 0px auto 20px;
-      background-color: $ddh-green;
+      background-color: transparent;
       border-radius: 3px;
+      border: 1px solid white;
       width: 90%;
     
       .menu-link {
@@ -124,8 +125,10 @@ div.nav-mobile {
         height: 100%;
         text-align: left;
         text-decoration: none;
-        
+      }
 
+      &:hover {
+        background-color: lighten(#141414, 3%);
       }
     }
   }

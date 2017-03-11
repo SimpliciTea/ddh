@@ -1,10 +1,9 @@
 extends ../layout/main
+include ../components/backlink
 
 block content
   div.content.content-contact
-    a.back-link(href=`${baseUrl}/`)
-      img(src=`${baseUrl}/images/Triangle.png`)
-      span back
+    +backlink
     h1 Contact
 
     hr

@@ -7,7 +7,7 @@
     overflow: hidden;
     position: relative;
     max-height: 600px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
   }
 
 	label {
@@ -60,6 +60,7 @@
 
 	article {
     width: 88%;
+    max-width: 600px;
     height: auto;
     padding: 0;
 		overflow: hidden;
@@ -73,7 +74,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    background: rgba(89,89,89,0.5);
+    background: rgba(0,0,0,0.6);
 		
     h2 {
       width: 100%;
@@ -96,6 +97,13 @@
       width: 100%;
       // background-color: $ddh-black;
       padding: 10px 10px 20px 30px;
+    }
+
+    @media (min-width: 700px) {
+      li, p {
+        font-size: 20px;
+        padding: 10px 0px;
+      }
     }
 	}
 

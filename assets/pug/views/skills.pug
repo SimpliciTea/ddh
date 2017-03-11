@@ -1,11 +1,10 @@
 extends ../layout/main
+include ../components/backlink
 
 block content
 
   div.content.content-experience
-    a.back-link(href=`${baseUrl}/`)
-      img(src=`${baseUrl}/images/Triangle.png`)
-      span back
+    +backlink
     h1 Skills
     ul.list-skills
       li UX/UI Design
@@ -23,7 +22,7 @@ block content
       p &quot;Have you ever had a client that doesn't know what they want, but they have a hard-stop deadline? That's when you need to have Dillon on your team! Dillon can get that wireframe, mock-up, or design spec done on time &amp; under budget. He's an innovative thinker that can deliver a product.&quot;
 
     div.content-experience__tools
-      h2 Design Tools
+      h2 Tools
       
       h3 Adobe CC
       ul
