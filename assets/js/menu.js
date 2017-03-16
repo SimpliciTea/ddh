@@ -84,6 +84,4 @@
   window.Menu = Menu;
 })(window);
 
-
-
 const menu = new Menu();

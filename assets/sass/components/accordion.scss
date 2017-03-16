@@ -65,11 +65,12 @@
     padding: 0;
 		overflow: hidden;
 		position: absolute;
-    bottom: 12%;
+    bottom: 0;
     left: -100%;
 		z-index: 20;
     font-size: 16px;
 		transition: left 0.3s ease-in-out;
+    cursor: pointer;
 
     display: flex;
     justify-content: flex-end;
@@ -86,23 +87,33 @@
       font-size: 2.5em;
     }
 
-    p {
+    p, li {
       // background-color: $ddh-black;
-      padding: 10px 10px 15px 30px;
-      width: 100%;
+      font-size: 12px;
+      padding-bottom: 7px;
       margin: 0;
     }
 
     ul {
       width: 100%;
       // background-color: $ddh-black;
-      padding: 10px 10px 20px 30px;
+      padding: 10px 10px;
+    }
+
+    @media (min-width: 500px) {
+      li, p {
+        font-size: 16px;
+      }
     }
 
     @media (min-width: 700px) {
       li, p {
         font-size: 20px;
         padding: 10px 0px;
+      }
+
+      ul {
+        padding: 10px 10px 20px 30px;
       }
     }
 	}

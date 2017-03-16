@@ -1,8 +1,39 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 require('./polyfills.js');
 require('./menu.js');
+require('./clients-radiofix.js');
 
-},{"./menu.js":2,"./polyfills.js":3}],2:[function(require,module,exports){
+},{"./clients-radiofix.js":2,"./menu.js":3,"./polyfills.js":4}],2:[function(require,module,exports){
+// quick fix to enable only one client description to be open at a time
+// (initially built to require no JS, but requirements changed)
+
+const clients = document.querySelectorAll('div.client');
+
+console.log(clients);
+
+clients.forEach((client) => {
+  client.addEventListener('click', handleClientClick);
+})
+
+function handleClientClick(e) {
+  e.preventDefault();
+  let clickedClient = e.currentTarget;
+  
+  clients.forEach((client) => {
+    let checkbox = client.querySelector('input[type="checkbox"]');
+    
+    if (client === clickedClient && !checkbox.checked) {
+      checkbox.checked = true;
+    } else {
+      checkbox.checked = false;
+    }
+  })
+
+
+
+}
+
+},{}],3:[function(require,module,exports){
 ((window) => {
   'use strict';
 
@@ -89,10 +120,8 @@ require('./menu.js');
   window.Menu = Menu;
 })(window);
 
-
-
 const menu = new Menu();
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 
 },{}]},{},[1]);

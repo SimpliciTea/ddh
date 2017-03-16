@@ -14,6 +14,7 @@ header {
     width: 100%;
     max-width: 65%;
     margin: auto;
+    z-index: 10;
   }
 
   .logo + h3 {
@@ -22,12 +23,38 @@ header {
     margin-top: 6px;
     margin-bottom: 0px;
     color: $ddh-white;
+    z-index: 10;
+  }
+
+  .color-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+
+    &--blue {
+      background: linear-gradient(to bottom, rgba(0,0,200,0.4), transparent);
+    }
+
+    &--red {
+      background: linear-gradient(to bottom, rgba(200,0,0,0.4), transparent);
+    }
+
+    &--yellow {
+      background: linear-gradient(to bottom, rgba(200,200,0,0.4), transparent);
+    }
   }
 
 
   @media (min-width: 700px) {
     padding-top: 110px;
     margin-top: 0px;
+
+    .color-gradient {
+      display: none;
+    }
 
 
     .logo {
