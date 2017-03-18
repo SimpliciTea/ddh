@@ -9,7 +9,6 @@ require('./clients-radiofix.js');
 
 const clients = document.querySelectorAll('div.client');
 
-console.log(clients);
 
 clients.forEach((client) => {
   client.addEventListener('click', handleClientClick);
